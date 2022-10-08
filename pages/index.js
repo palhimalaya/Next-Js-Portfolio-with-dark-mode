@@ -120,7 +120,7 @@ export default function Home() {
           </div>
           <div className=" lg:flex gap-10">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="me" width={100} height={100} />
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-black">
                 Beautiful Designs
               </h3>
@@ -136,7 +136,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1 dark:text-black">Figma</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="code" width={100} height={100} />
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-black">
                 Beautiful Designs
               </h3>
@@ -152,7 +152,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1 dark:text-black">Figma</p>
             </div>
             <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="me" width={100} height={100} />
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-black">
                 Beautiful Designs
               </h3>
@@ -174,7 +174,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white ">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -188,6 +188,7 @@ export default function Home() {
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className=" basis-1/3 flex-1">
               <Image
+                alt="me"
                 src={web1}
                 className=" rounded-lg object-cover"
                 width={"100%"}
@@ -198,6 +199,7 @@ export default function Home() {
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web2}
+                alt="me"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -207,6 +209,7 @@ export default function Home() {
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web3}
+                alt="me"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -216,6 +219,7 @@ export default function Home() {
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web4}
+                alt="me"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -225,6 +229,7 @@ export default function Home() {
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web5}
+                alt="me"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -234,6 +239,7 @@ export default function Home() {
             <div className=" basis-1/3 flex-1">
               <Image
                 src={web6}
+                alt="me"
                 className=" rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
